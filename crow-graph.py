@@ -148,6 +148,7 @@ def update(i):
 	ax2.set_yscale("log")
 	ax2.plot(fftfreq, fftarr)
 
+	ax3.set_ylim(-150000, 150000)
 	ax3.plot(fftfreq, arr3)
 
 	ax4.set_ylim(-30, 30)
